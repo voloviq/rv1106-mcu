@@ -13,7 +13,11 @@ I have tested it on the luckfox pico pro(RV1106).
 This firmware will control the Luckfox Pico onboard led blinking at 1hz and output log to UART2(Default UART).
 
 Step:
+
 1.Disable LED control by linux.
-echo none > /sys/class/leds/work/trigger
+
+`echo none > /sys/class/leds/work/trigger`
+
 2.Run MCU firmware
-mcuload execute 0xff6c0000 rv1106-mcu-led-blinky.bin
+
+`mcuload execute 0xff6c0000 rv1106-mcu-led-blinky.bin`
