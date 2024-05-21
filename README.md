@@ -8,6 +8,9 @@ The same RISC-V core exists in RK3568/RV1126/RV1106.
 
 I have tested it on the luckfox pico pro(RV1106).
 
+# JTAG
+https://github.com/LuckfoxTECH/luckfox-pico/issues/112
+
 
 # Demo firmware
 This firmware will control the Luckfox Pico onboard led blinking at 1hz and output log to UART2(Default UART).
